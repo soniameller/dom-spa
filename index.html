@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM Single Page Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <a href="/">DOM SPA</a>
+    </div>
+    <div class="right">
+      <a href="/about">About</a>
+      <a href="/rules">Rules</a>
+      <a href="/high-scores">High Scores</a>
+    </div>
+  </nav>
+  <main>
+    <section data-route="/">
+      <h1>Home</h1>
+      <button>Play Game</button>
+    </section>
+    <section data-route="/about">
+      <h1>About</h1>
+    </section>
+    <section data-route="/rules">
+      <h1>Rules</h1>
+    </section>
+    <section data-route="/high-scores">
+      <h1>High Scores</h1>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
